@@ -1,4 +1,6 @@
 .footer{
+    position: fixed;
+    left: 0;
     width: 100vw;
     height: 4rem;
     background: rgb(40, 40, 40);

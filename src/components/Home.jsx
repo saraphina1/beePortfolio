@@ -19,10 +19,10 @@ function Home() {
           <br /> virtually appealing and user-friendly websites.
         </p>
         <Link>
-          <button className="hireBtn">
+         <a href="https://www.linkedin.com/in/sarah-oyeyemi-b39031183/"> <button className="hireBtn">
             <HiBriefcase className="briefImg" />
             Hire Me
-          </button>
+          </button></a>
         </Link>
       </div>
       <img src={dp} alt="mypic" className="myPic" />
