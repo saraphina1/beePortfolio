@@ -19,7 +19,50 @@
 
 .aboutDesc{
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1rem;
     max-width: 58rem;
     padding: 0 2rem;
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+     max-width: 80%; 
+    text-align: left;
+}
+
+.skillbar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(50, 50, 50);
+}
+.skillbarImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.skillBarText>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 480){
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillbarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+    }
+    
+        
+    
+
+
 }
