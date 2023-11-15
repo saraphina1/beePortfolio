@@ -1,7 +1,7 @@
 import "../styles/home.css";
 import dp from "../assets/dp.jpeg";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import { HiBriefcase } from "react-icons/hi";
 function Home() {
