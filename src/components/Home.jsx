@@ -18,11 +18,11 @@ function Home() {
           I am a skilled web designer with experience in creating
           <br /> virtually appealing and user-friendly websites.
         </p>
-        <Link>
-         <a href="https://www.linkedin.com/in/sarah-oyeyemi-b39031183/"> <button className="hireBtn">
+        <Link to="/contact">
+          <button className="hireBtn">
             <HiBriefcase className="briefImg" />
             Hire Me
-          </button></a>
+          </button>
         </Link>
       </div>
       <img src={dp} alt="mypic" className="myPic" />
