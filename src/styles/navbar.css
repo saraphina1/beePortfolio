@@ -82,6 +82,14 @@
 border-bottom: 2px solid yellow;
 padding-bottom: 0.5rem;
 }
+nav a.active{
+color: yellow;
+border-bottom: 2px solid yellow;
+padding-bottom: 0.5rem;
+
+}
+
+
 
 @media screen and (max-width: 720px){
     .mobileLogo{

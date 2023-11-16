@@ -1,5 +1,5 @@
 import "../styles/home.css";
-import dp from "../assets/dp.jpeg";
+import foto from "../assets/foto.png";
 
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ function Home() {
           </button>
         </Link>
       </div>
-      <img src={dp} alt="mypic" className="myPic" />
+      <img src={foto} alt="mypic" className="myPic" />
     </section>
   );
 }

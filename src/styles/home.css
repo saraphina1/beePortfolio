@@ -1,5 +1,5 @@
 .intro{
-    height: calc(100vh- 4rem);
+    height: 100vh;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -71,6 +71,7 @@ height: 100vh;
 @media screen and (max-width:840px) {
     .myPic{
         right: -10vw;
+        
     } 
     
     .introContent{
@@ -88,7 +89,8 @@ height: 100vh;
 }
 @media screen and (max-width:480px) {
      .myPic{
-        right: -20vw;
+        right: -10vw;
+        top: -2rem
     } 
     .hello{
         font-size: 1.50rem;

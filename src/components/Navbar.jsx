@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "../styles/navbar.css";
 import mylogo from "../assets/mylogo.png";
-import menu from "../assets/menu.jpg";
-import { Link } from "react-router-dom";
+import menu from "../assets/menu.png";
+import { NavLink, Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 
 const Navbar = () => {
@@ -11,15 +11,15 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={mylogo} alt="logo" className="logo" />
       <div className="menu">
-        <Link to="/" className="menuListItem">
+        <NavLink to="/" className="menuListItem">
           Home
-        </Link>
-        <Link to="/about" className="menuListItem">
+        </NavLink>
+        <NavLink to="/about" className="menuListItem">
           About
-        </Link>
-        <Link to="/portfolio" className="menuListItem">
+        </NavLink>
+        <NavLink to="/portfolio" className="menuListItem">
           Portfolio
-        </Link>
+        </NavLink>
       </div>
       <Link to="/contact">
         <button className="menuBtn">
@@ -37,30 +37,33 @@ const Navbar = () => {
         className="hiddenMenu"
         style={{ display: showMenu ? "flex" : "none" }}
       >
-        <Link to="/" className="ListItem" onClick={() => setShowMenu(false)}>
+        <NavLink to="/" activeClass="active" className="ListItem" onClick={() => setShowMenu(false)}>
           Home
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/about"
+          activeClass="active"
           className="ListItem"
           onClick={() => setShowMenu(false)}
         >
           About
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/portfolio"
+          activeClass="active"
           className="ListItem"
           onClick={() => setShowMenu(false)}
         >
           Portfolio
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/contact"
+          activeClass="active"
           className="ListItem"
           onClick={() => setShowMenu(false)}
         >
           Contact
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

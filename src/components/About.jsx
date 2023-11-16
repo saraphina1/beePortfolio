@@ -13,18 +13,18 @@ function About() {
         <br />
         websites. I have a strong understanding of design and a keen eye for
         detail. I am proficient in HTML, CSS,
-        <br />
+        
         Javacript, React.js and TypeScript
       </span>
       <div className="skillBars">
         <div className="skillbar">
           <img src={webDesign} alt="/" className="skillbarImg" />
           <div className="skillBarText">
-            <h2>Web/App Development</h2>
+            <h2 className="ww">Web/App Development</h2>
             <p>
               translating design mockups and wireframes into fully functional
               websites or applications,
-              <br /> by writing clean, efficient, and maintainable code using
+              by writing clean, efficient, and maintainable code using
               HTML, CSS, JavaScript and React.JS
             </p>
           </div>
@@ -37,7 +37,7 @@ function About() {
             <p>
               I ensure that websites and applications are responsive across
               different devices and screen sizes.<br/>By utilizing responsive design
-              techniques,<br/>I make sure that the user experience remains
+              techniques, I make sure that the user experience remains
               consistent and optimal, regardless of the device being used.
             </p>
           </div>
@@ -49,7 +49,7 @@ function About() {
             <h2>UI Design</h2>
             <p>
               I collaborate closely with designers to ensure that the user
-              interface (UI) is visually appealing,<br/> user-friendly, and aligned
+              interface (UI) is visually appealing, user-friendly, and aligned
               with the projects goals and target audience. <br/>I also leverage my
               knowledge of UI design principles to create intuitive and engaging
               experiences for users.
