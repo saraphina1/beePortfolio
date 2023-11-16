@@ -1,7 +1,7 @@
 import "../styles/contact.css";
 import linkedln from "../assets/linkedln.png";
 import x from "../assets/x.jpg";
-import insta from "../assets/insta.png";
+import git from "../assets/git.jpg";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 function Contact() {
@@ -60,8 +60,9 @@ function Contact() {
             {" "}
             <img src={linkedln} alt="image" className="linkImage" />
           </a>
+          <a href="https://github.com/saraphina1"><img src={git} alt="image" className="linkImage" /></a>
           <img src={x} alt="image" className="linkImage" />
-          <img src={insta} alt="image" className="linkImage" />
+          
         </div>
       </form>
     </section>
